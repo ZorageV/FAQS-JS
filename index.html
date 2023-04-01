@@ -8,16 +8,22 @@
     <title>Document</title>
 </head>
 <body class="bg-gradient-to-r from-rose-500 to-teal-400">
-    <div class="w-fit h-fit mx-auto mt-40">
+    <div class="w-fit h-fit mx-auto mt-40 bg-white rounded-xl px-8 py-4">
         <div>
-            <h1 class="text-4xl">
+            <h1 class="text-4xl font-bold">
                 Frequently asked questions
             </h1>
         </div>
-        <div class="flex justify-center mt-8 bg-blue-200">
-            <div id="first">
-                <h2 class="question_1 text-xl">What is the return policy?</h2>
-                <p class="answer_1 w-80 text-md">Lorem ipsum dolor sit amet,
+        <div id="main_div" class=" mx-auto mt-12">
+            <!-- first question -->
+            <div id="first" class="h-8 overflow-hidden">
+                <div id="question_1" class="flex justify-between cursor-pointer">
+                <h2 class="text-xl">What is the return policy? 1</h2>
+                <svg id="plus_1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                </svg>
+                </div>                         
+                <p id="answer_1" class="w-96 text-md pt-4">Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit.
                     Corporis a soluta quasi inventore
                     vitae distinctio mollitia eum at
@@ -25,7 +31,42 @@
                     voluptatibus modi aliquam eius
                     excepturi optio tempora numquam!</p>
             </div>
-        </div>
+            <hr class="border-1 border-slate-400 rounded-3xl my-4">
+
+            <!-- Second question  -->
+            <div id="second" class="h-8 overflow-hidden">
+                <div id="question_2" class="flex justify-between cursor-pointer">
+                <h2 class="text-xl">What is the return policy? 2</h2>
+                <svg id="plus_2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </div>                         
+                <p id="answer_2" class="w-96 text-sm pt-4">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Corporis a soluta quasi inventore
+                    vitae distinctio mollitia eum at
+                    iusto explicabo minima nesciunt,
+                    voluptatibus modi aliquam eius
+                    excepturi optio tempora numquam!</p>
+            </div>
+            <hr class="border-1 border-slate-400 rounded-3xl my-4">
+
+            <!-- third question -->
+            <div id="third" class="h-8 overflow-hidden">
+                <div id="question_3" class="flex justify-between cursor-pointer">
+                <h2 class="text-xl">What is the return policy? 3</h2>
+                <svg id="plus_3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </div>                         
+                <p id="answer_3" class="w-96 text-md pt-4">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Corporis a soluta quasi inventore
+                    vitae distinctio mollitia eum at
+                    iusto explicabo minima nesciunt,
+                    voluptatibus modi aliquam eius
+                    excepturi optio tempora numquam!</p>
+            </div>
         </div>
     </div>
 </body>
